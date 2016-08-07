@@ -17,13 +17,13 @@ var env,
 
 env = process.env.NODE_ENV || 'development';
 
-  if (env === 'development'){
-     outputDir = 'builds/development/';
-     sassStyle = 'expanded';
-  } else {
-     outputDir = 'builds/production/';
-     sassStyle = 'compressed';
-  }
+if (env==='development') {
+  outputDir = 'builds/development/';
+  sassStyle = 'expanded';
+} else {
+  outputDir = 'builds/production/';
+  sassStyle = 'compressed';
+}
 
 coffeeSources = ['components/coffee/tagline.coffee'];
 jsSources = [
