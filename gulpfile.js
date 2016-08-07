@@ -17,7 +17,7 @@ var env,
 
 env = process.env.NODE_ENV || 'development';
 
-  if (env==='development'){
+  if (env === 'development'){
      outputDir = 'builds/development/';
      sassStyle = 'expanded';
   } else {
