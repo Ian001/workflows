@@ -35,6 +35,7 @@ gulp.task('compass', function() {
         sass: 'components/sass',
         image: 'builds/development/images',
         lineNumbers: true,
+        line_comments: true,
         style: 'expanded'
      })
       .on('error', gutil.log))
