@@ -12,8 +12,9 @@ var env,
     sassSources,
     htmlSources,
     jsonSources,
-    outputDir,
-    sassStyle;
+    sassStyle,    
+    outputDir;
+    
 
 env = process.env.NODE_ENV || 'development';
 

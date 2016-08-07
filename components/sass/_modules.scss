@@ -103,7 +103,9 @@
     color: lighten($purple, 15);
     padding-bottom: 5px;
   } //h4
- 
+  .testing {
+     color: blue;
+  }
   img {
     float: right;
     @include border-radius(50%);
