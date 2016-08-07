@@ -18,10 +18,10 @@ var env,
 env = process.env.NODE_ENV || 'development';
 
   if (env==='development'){
-     outputDir = 'builds/development/';
+     outputDir = 'Builds/development/';
      sassStyle = 'expanded';
   } else {
-     outputDir = 'builds/production/';
+     outputDir = 'Builds/production/';
      sassStyle = 'compressed';
   }
 
@@ -56,7 +56,7 @@ gulp.task('compass', function() {
      .pipe(compass({
         sass: 'components/sass',
         image: outputDir + 'images',
-        style: sassStyle
+        output_style: sassStyle
      })
       .on('error', gutil.log))
      .pipe(gulp.dest(outputDir + 'css'))
