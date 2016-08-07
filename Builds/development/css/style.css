@@ -38,16 +38,16 @@ h2 {
   color: #3E2B3D;
 }
 
+.test {
+  color: red;
+}
+
 p {
   font-size: 1.3em;
   line-height: 1.5em;
   color: #3E2B3D;
   margin-bottom: 20px;
   margin-top: 15px;
-}
-
-.ae {
-  border: 1px solid #ccc;
 }
 
 section {
