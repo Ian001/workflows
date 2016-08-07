@@ -40,6 +40,7 @@ h2 {
 
 .test {
   color: red;
+  border: 1px solid green;
 }
 
 p {
