@@ -12,7 +12,8 @@ var env,
     sassSources,
     htmlSources,
     jsonSources,
-    sassStyle,    
+    sassStyle,
+    sassComments,    
     outputDir;
     
 
